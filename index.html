@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="containor">
+    <div class="box">
+            <div class="box1">
+              <div class="principle">PRINCIPLE (<b>₹</b>) </div>
+              <input id="p" type="number" placeholder="  100">
+            </div>
+
+            <div class="box1">
+              <div class="rate">RATE OF INTEREST (<b>%</b>)</div>
+              <input id="r" type="number" placeholder="  5">
+            </div>
+
+            <div class="box1">
+              <div class="time">DURATION</div>
+              <input id="t" type="number" placeholder="  1">
+              <select id="v" name="duration" id="duration">
+                <option value="year">Year</option>
+                <option value="months">Months</option>
+              </select>
+            </div>
+
+            <div id="calculate">
+              <button>Calculate</button>
+            </div>
+
+            <div id="result">
+            </div>
+    </div>
+  </div>
+
+  <script src="calculator.js"></script>
+</body>
+</html>
